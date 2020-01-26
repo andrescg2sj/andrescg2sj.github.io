@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>El taller y el mosaico</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-01-21T11:00:00+01:00</updated><entry><title>Una propuesta: Sistema de apuntes colaborativos</title><link href="/una-propuesta-sistema-de-apuntes-colaborativos.html" rel="alternate"></link><published>2020-01-21T11:00:00+01:00</published><updated>2020-01-21T11:00:00+01:00</updated><author><name>andrescg2sj</name></author><id>tag:None,2020-01-21:/una-propuesta-sistema-de-apuntes-colaborativos.html</id><summary type="html">&lt;h2&gt;Preámbulo&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;En un artículo anterior, se comentaron algunas &lt;a href="/ensenanza-y-trabajo-colaborativo-herramientas.html"&gt;herramientas colaborativas&lt;/a&gt; útiles, entre otras aplicaciones, para la enseñanza. En este artículo, se presenta una propuesta de método de trabajo que permite aprovechar algunas de sus posibilidades&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;Todos tenemos la experiencia de haber tenido que copiar apuntes en clase. A
+veces …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Preámbulo&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;En un artículo anterior, se comentaron algunas &lt;a href="/ensenanza-y-trabajo-colaborativo-herramientas.html"&gt;herramientas colaborativas&lt;/a&gt; útiles, entre otras aplicaciones, para la enseñanza. En este artículo, se presenta una propuesta de método de trabajo que permite aprovechar algunas de sus posibilidades&lt;/em&gt;.&lt;/p&gt;
+&lt;h2&gt;Introducción&lt;/h2&gt;
+&lt;p&gt;Todos tenemos la experiencia de haber tenido que copiar apuntes en clase. A
+veces no hay más remedio, pero nos preguntamos: ¿no habrá una forma mejor?¿Es
+necesario que todos copien los mismos apuntes año tras año? Como hemos
+adelantado, la tecnología actual ofrece nuevas posibilidades. Permite copiar,
+difundir, y revisar contenidos con gran facilidad. ¿Podemos aprovecharlo para la
+elaboración de apuntes y contenidos?&lt;/p&gt;
+&lt;h2&gt;Descripción del proceso&lt;/h2&gt;
+&lt;p&gt;A continuación, presentamos una &lt;strong&gt;propuesta de metodología para elaborar apuntes
+de forma colaborativa, apoyada en TIC&lt;/strong&gt;. Imaginemos el siguiente escenario, en
+que profesor y alumnos disponen de PC o dispositivos con conexión a Internet
+para trabajar conjuntamente, sea en el aula o en casa. Podemos pensar que están
+usando una herramienta de almacenamiento compartido (Dropbox, etc) o inspirada
+en un sistema de gestión de versiones (Git):&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;El profesor difunde un &lt;strong&gt;primer documento&lt;/strong&gt; que contiene simplemente un
+    guion, con las ideas principales, que sirve como punto de partida.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Documento del profesor" src="media/9d681a600b42b02774b5b6a579408b0a.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;El sistema permite que los alumnos intercambien preguntas y respuestas sobre
+    el tema, dudas, aclaraciones, etc. Esto se puede implementar mediante
+    funciones de comentario en línea, como las de GoogleDocs o Dropbox.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Documento del profesor con comentarios" src="media/1acbeb8f18cfb4c15d3596d0a92b782e.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Los alumnos &lt;strong&gt;copian el guion y lo van completando&lt;/strong&gt; con sus propias
+    palabras, ejemplos, imágenes, información obtenida de WebQuest, etc. Esto es
+    sencillo en un sistema de almacenamiento compartido. También es inmediato en
+    herramientas de gestión de versiones como Git, o aquellas que se basan en
+    ésta, como Penflip.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Copias de los alumnos" src="media/8b2bb64d7f7acac63adfb6fc7bad3f84.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Otros alumnos a su vez hacen su copia local de los apuntes que más les
+    ayudan, y hacen &lt;strong&gt;pequeñas modificaciones&lt;/strong&gt; y aclaraciones para ellos
+    mismos.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Más copias" src="media/0d6302070a460bcffe27be0905c461fa.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Puesto que todos los apuntes son compartidos (visibles para todos), el
+    profesor evalúa con su propio criterio y da puntuaciones (a todos o una
+    selección).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Evaluaciones del profesor" src="media/3e2de2e52387a9886026adf01047452b.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;También puede dar puntuaciones adicionales, por ejemplo a los apuntes más
+    “copiados”, pues esto es un indicador de que son valiosos, y de que están
+    bien hechos (evidentemente el profesor debe verificar que realmente lo
+    están). También se puede considerar (dependiendo del caso) dar pequeñas
+    puntuaciones positivas aquellos que los han copiado, pues significa que
+    saben reconocer el trabajo bien hecho.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;La idea es conseguir que todos se beneficien, evitando en cierta medida
+    duplicar el trabajo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Los alumnos más trabajadores o capaces pueden hacer una versión más
+    completa, que otros pueden aprovechar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Otros pueden optar por seleccionar una versión que les ayude y
+    modificarla. En este caso, ya están realizando un trabajo de asimilación
+    al comparar los apuntes, y esto también se valora.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Co-evaluaciones" src="media/70dcadabf38bcec3fcb03bcb46a63e20.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;En momentos posteriores (o quizás también antes) todos pueden comentar otros
+    trabajos y revisar los suyos o sugerir modificaciones (mediante comentarios
+    en línea, por ejemplo).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Mezcla de documentos" src="media/b73c70c25e246e42fadfe0b0dd034026.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Por último, el profesor puede añadir a su documento las aportaciones que
+    considere más interesantes.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Las aplicaciones de escritorio como Word y LibreOffice disponen de
+    funciones para comparar documentos que facilitan esta tarea.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GoogleDocs integra esta funcionalidad también, y otras como Dropbox
+    disponen de extensiones (Dropboxdiff) para ello.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En herramientas de gestión de versiones como Git esta operación está
+    integrada puesto que forma parte del flujo de trabajo habitual[^1].&lt;/p&gt;
+&lt;p&gt;[^1]: están relacionadas con las operaciones de &lt;em&gt;pull request&lt;/em&gt; y
+&lt;em&gt;merge&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="Realimentación del documento del profesor" src="media/8a9821f101a93e6fc5920701014fad17.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Algunas consideraciones&lt;/h2&gt;
+&lt;p&gt;Las ventajas más inmediatas de un sistema como este serían:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Todos se enriquecen del trabajo de todos.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El trabajo se duplica lo menos posible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El trabajo realizado se puede aprovechar para otros años, otras clases o
+    incluso otros centros.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Inconvenientes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Se necesita un tiempo para que los alumnos se familiaricen con las
+    herramientas y vean las ventajas del método de trabajo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;En caso de no disponer de dispositivos electrónicos o Internet en el aula
+    (muy común), hay que pensar cómo integrar este modo de trabajo con el resto
+    del trabajo que se hace en el aula.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;El trabajo de escritura manual despliega procesos cognitivos que se han
+    reconocido como favorecedores del aprendizaje. Es necesario estudiar (o
+    desconozco si se ha hecho) el impacto en el proceso de aprendizaje que
+    tendría un sistema de trabajo pura o predominantemente digital.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Otras ideas y consideraciones finales&lt;/h2&gt;
+&lt;p&gt;Un sistema de trabajo o estudio colaborativo como este, debería integrar algunas
+funciones especialmente valiosas. La &lt;strong&gt;evaluación&lt;/strong&gt; (y coevaluación) es una
+parta fundamental del proceso de enseñanza-aprendizaje, tal como lo entendemos.
+Los sistemas de &lt;strong&gt;reputación&lt;/strong&gt; pueden aportar indicadores que ayuden en esta
+tarea. Éstos pueden proceder de varias fuentes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Como apuntábamos, si el sistema nos permite contabilizar el número de copias
+    que se hacen de un documento, este número da un indicio de su valor.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Una variación de lo anterior sería una funcionalidad (más avanzada) que
+    permitiera detectar los documentos posteriores y parecidos a uno dado, y
+    &lt;strong&gt;su grado de similitud&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Otro indicador se podría obtener de un sistema de votación de cada
+    documento. El documento que recibe más votos es el más valorado.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Los comentarios a cada documento también pueden ser datos para la
+    (co)evaluación.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Otras funcionalidades que aumentarían las posibilidades del sistema serían:
+hacer búsquedas de documentos por temas o palabras clave, buscar documentos
+parecidos a otros, medir su grado de similitud y ordenarlos en función de este,
+y posteriormente compararlos en detalle.&lt;/p&gt;
+&lt;p&gt;Las funciones de comparación y combinación de documentos están disponibles en
+diversas herramientas, como ya se ha mencionado. Word y LibreOffice Writer las
+incorporan. En un ámbito más técnico, encontramos WinMerge y Meld, que se basan
+en diff. Git integra esta funcionalidad de comparación y combinación de
+documentos para la gestión de versiones. Por otra parte, no existen (o no he
+encontrado) herramientas ampliamente difundidas de búsqueda de documentos
+similares, de comparación múltiple de documentos o de medición de diferencias.
+Sería un desarrollo interesante (y no muy difícil de hacer) para el futuro.&lt;/p&gt;
+&lt;p&gt;En cualquier caso, una plataforma que integrase en alguna medida estas funciones de colaboración, búsqueda y evaluación podría constituir un Entorno de Aprendizaje
+Comunitario (&lt;em&gt;Community Learning Environment&lt;/em&gt;) de gran utilidad. Como hemos
+visto, muchas de estas funciones están disponibles en herramientas existentes
+como GoogleDocs o Dropbox. Otras posibilidades pueden ser servicios basados en
+Git, como Penflip y Wiki.js. Por lo tanto, disponemos de un punto de partida
+para ponerlos en práctica, aunque aún queda margen para desarrollar nuevas soluciones que ofrezcan estas funcionalidades y permitan usar esta metodología de una forma más integral.&lt;/p&gt;
+&lt;h2&gt;¿Qué puede aportar el trabajo colaborativo a los profesores?&lt;/h2&gt;
+&lt;p&gt;Por una parte, está claro que las necesidades de muchos docentes son similares
+en cuanto a materiales didácticos, pues el currículo que deben impartir viene
+dado por la legislación. De ahí que el libro de texto siga siendo un recurso
+ampliamente utilizado.&lt;/p&gt;
+&lt;p&gt;Por otra parte, dice el refrán que “cada maestrillo tiene su librillo”. Cada
+profesor tiene su forma personal de enfocar y explicar la asignatura, y por
+tanto suele necesitar adaptar cada contenido a aquella.&lt;/p&gt;
+&lt;p&gt;Consideremos por un momento que no necesitamos un libro de texto para impartir
+asignaturas. Más bien, nos centramos en la organización de la asignatura en
+&lt;strong&gt;unidades didácticas&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Pensemos en un sistema similar al descrito, que nos permita compartir nuestras
+unidades didácticas (UD), y ver las de otros profesores, del propio centro y de
+otros que también participan en el sistema. Cuando buscamos una UD sobre un tema
+determinado, el sistema nos ofrece no sólo ver una lista de resultados (como en
+cualquier buscador), sino también el &lt;strong&gt;grado de similitud o diferencia entre
+esos documentos&lt;/strong&gt;. Además, nos permitirá comparar más en detalle dos documentos
+que elijamos. A continuación, podemos seleccionar el que nos parezca mejor,
+realizar una copia, y trabajar sobre ella realizando nuestros cambios. Más tarde
+podríamos volver a publicar el documento con nuestros cambios para compartir
+esas aportaciones con el resto de la comunidad.&lt;/p&gt;
+&lt;p&gt;Queda pendiente la reflexión sobre cómo reconocer y remunerar justamente las
+horas de trabajo que puede llevarles a algunos profesores (o autores) la
+elaboración de estas unidades de las que muchos otros se pueden beneficiar, pero
+esto se enlaza con una cuestión más amplia y le corresponde un documento aparte.&lt;/p&gt;
+&lt;p&gt;Andrés González SJ&lt;/p&gt;</content></entry><entry><title>Cancioneros católicos</title><link href="/cancioneros-catolicos.html" rel="alternate"></link><published>2019-10-05T23:00:00+02:00</published><updated>2019-10-05T23:00:00+02:00</updated><author><name>andrescg2sj</name></author><id>tag:None,2019-10-05:/cancioneros-catolicos.html</id><summary type="html">&lt;h1&gt;Cancioneros&lt;/h1&gt;
+&lt;h2&gt;Cancionero litúrgico&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.cancionero-liturgico.org"&gt;www.cancionero-liturgico.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contiene partituras, MIDI y MP3 de las canciones.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.cancionero-liturgico.org/cancion.html"&gt;http://www.cancionero-liturgico.org/cancion.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Pastoral Musical&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://sites.google.com/site/pastoramusica/"&gt;Google Site - Pastoral Musical&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contiene letras, acordes y grabaciones para canciones de: Grupos Loyola, Ain Karem, Ixcís, y T.S.N.C.&lt;/p&gt;
+&lt;h2&gt;Cancionero para Misa Joven (Toño Casado …&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;Cancioneros&lt;/h1&gt;
+&lt;h2&gt;Cancionero litúrgico&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.cancionero-liturgico.org"&gt;www.cancionero-liturgico.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contiene partituras, MIDI y MP3 de las canciones.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.cancionero-liturgico.org/cancion.html"&gt;http://www.cancionero-liturgico.org/cancion.html&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Pastoral Musical&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://sites.google.com/site/pastoramusica/"&gt;Google Site - Pastoral Musical&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contiene letras, acordes y grabaciones para canciones de: Grupos Loyola, Ain Karem, Ixcís, y T.S.N.C.&lt;/p&gt;
+&lt;h2&gt;Cancionero para Misa Joven (Toño Casado)&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://docs.google.com/document/d/1oESU0QR43eYh6uuDceDoyLe_KkBa641mj65tomKkDkY/edit?hl=es"&gt;Cancionero Misa Joven&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Cancionero del Noviciado de Jesuitas&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.scribd.com/doc/47171714/CANCIONERO-NSJ"&gt;Descargar el cancionero&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.google.com/spreadsheets/d/1AuJgkjeOrNb35U4Mh6HJM2tPbAcPGTGmLO3VxyaY_Y4/edit?usp=sharing"&gt;Lista de grabaciones&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;El Tocho&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.coro9.com/cantoralElTocho"&gt;Ir a 'El tocho'&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Coro 9 y 1/4.&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/channel/UCEH7POkoFy3xGyofezXjn5Q"&gt;Canal de YouTube Coro 9 y 1/4&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Nuestro Cancionero 2.0&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.renevalencia.cl/nc2/"&gt;http://www.renevalencia.cl/nc2/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contiene reproductor con grabaciones de las canciones, y enlace a generador de acordes.&lt;/p&gt;
+&lt;h2&gt;Otros recursos&lt;/h2&gt;
+&lt;p&gt;https://madejuan.github.io/PastoralMusical/Cancionero_Gloyola_2012Notas.htm&lt;/p&gt;
+&lt;p&gt;Tablas de Pastoral Musical&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tabla de &lt;a href="https://madejuan.github.io/PastoralMusical/TablaAinkarem.html"&gt;canciones de Ain Karem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tabla &lt;a href="https://madejuan.github.io/PastoralMusical/TablaGloyola.html"&gt;GLoyola&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tabla de &lt;a href="https://madejuan.github.io/PastoralMusical/TablaBiblia.html"&gt;temas bíblicos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tabla de &lt;a href="https://madejuan.github.io/PastoralMusical/TablaIxcis.html"&gt;canciones de Ixcís&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="http://escolappios.es/songbook.php"&gt;http://escolappios.es/songbook.php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.acitjoven.org/index.php/materiales/canciones"&gt;http://www.acitjoven.org/index.php/materiales/canciones&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Utilidad para cambiar acordes&lt;/h2&gt;
+&lt;p&gt;En la siguiente página puedes escribir los acordes de una canción y transportarlos a otra tonalidad.&lt;/p&gt;
+&lt;p&gt;&lt;a href="transport/transportador.htm"&gt;Transportador de acordes&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Otros enlaces&lt;/h2&gt;
+&lt;p&gt;&lt;a href="/recursos-de-musica-cristiana.html"&gt;Recursos de música cristiana&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Recursos de música cristiana</title><link href="/recursos-de-musica-cristiana.html" rel="alternate"></link><published>2019-10-05T23:00:00+02:00</published><updated>2019-10-05T23:00:00+02:00</updated><author><name>andrescg2sj</name></author><id>tag:None,2019-10-05:/recursos-de-musica-cristiana.html</id><summary type="html">&lt;h1&gt;Música&lt;/h1&gt;
+&lt;h2&gt;Jesuitas acústico&lt;/h2&gt;
+&lt;p&gt;Se pueden encontrar sus &lt;a href="https://www.youtube.com/channel/UCWa2jaEyy0qltYfidQ2kR-g"&gt;canciones&lt;/a&gt; disponibles en su canal de YouTube.&lt;/p&gt;
+&lt;h2&gt;Mundosí producciones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Canal de YouTube: &lt;a href="https://www.youtube.com/channel/UC71AQrxD842TOpwRjH9eJEg"&gt;Mundosí producciones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=n51I5qmWdQ4"&gt;Tomad Señor (Borja Iturbe)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cristobal Fones&lt;/h2&gt;
+&lt;p&gt;Se puede encontrar en su web la &lt;a href="https://cfones.jesuitas.cl/discografia/"&gt;discografía&lt;/a&gt; del jesuita Cristobal Fones.&lt;/p&gt;
+&lt;h2&gt;Canto católico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Canal de YouTube: &lt;a href="https://www.youtube.com/channel/UCQccwku62pDb4CsN4nwmqdw"&gt;Canto Católico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=N5LECNqQs7Q"&gt;Señor a quién iremos …&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;h1&gt;Música&lt;/h1&gt;
+&lt;h2&gt;Jesuitas acústico&lt;/h2&gt;
+&lt;p&gt;Se pueden encontrar sus &lt;a href="https://www.youtube.com/channel/UCWa2jaEyy0qltYfidQ2kR-g"&gt;canciones&lt;/a&gt; disponibles en su canal de YouTube.&lt;/p&gt;
+&lt;h2&gt;Mundosí producciones&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Canal de YouTube: &lt;a href="https://www.youtube.com/channel/UC71AQrxD842TOpwRjH9eJEg"&gt;Mundosí producciones&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=n51I5qmWdQ4"&gt;Tomad Señor (Borja Iturbe)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cristobal Fones&lt;/h2&gt;
+&lt;p&gt;Se puede encontrar en su web la &lt;a href="https://cfones.jesuitas.cl/discografia/"&gt;discografía&lt;/a&gt; del jesuita Cristobal Fones.&lt;/p&gt;
+&lt;h2&gt;Canto católico&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Canal de YouTube: &lt;a href="https://www.youtube.com/channel/UCQccwku62pDb4CsN4nwmqdw"&gt;Canto Católico&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=N5LECNqQs7Q"&gt;Señor a quién iremos&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Brotes de Olivo&lt;/h2&gt;
+&lt;p&gt;El grupo &lt;em&gt;Brotes de Olivo&lt;/em&gt; ofrece su discografía disponible para descarga en &lt;a href="http://brotesdeolivo.es/index.php/descarga"&gt;este enlace&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Taizé&lt;/h2&gt;
+&lt;p&gt;Se puden escuchar algunos podcasts &lt;a href="https://www.taize.fr/es_article4803.html"&gt;aquí&lt;/a&gt;.
+También hay &lt;a href="https://www.taize.fr/es_article10314.html"&gt;recursos para aprender los cantos&lt;/a&gt;, que incluyen partituras y ficheros MIDI.&lt;/p&gt;
+&lt;h2&gt;Ixcis&lt;/h2&gt;
+&lt;p&gt;Puedes descargar gratis su discografía en su &lt;a href="https://ixcis.org/discografia"&gt;página web&lt;/a&gt;.
+También puedes ver sus vídeos en su &lt;a href="https://www.youtube.com/channel/UCWj_T0U_mAjSwjfbWlwopzg"&gt;canal de YouTube&lt;/a&gt;. &lt;/p&gt;
+&lt;h2&gt;Otros enlaces de interés&lt;/h2&gt;
+&lt;p&gt;&lt;a href="/cancioneros-catolicos.html"&gt;Cancioneros católicos&lt;/a&gt;.&lt;/p&gt;</content></entry><entry><title>Enseñanza y trabajo colaborativo. Herramientas</title><link href="/ensenanza-y-trabajo-colaborativo-herramientas.html" rel="alternate"></link><published>2019-07-07T11:14:00+02:00</published><updated>2019-07-07T11:14:00+02:00</updated><author><name>andrescg2sj</name></author><id>tag:None,2019-07-07:/ensenanza-y-trabajo-colaborativo-herramientas.html</id><summary type="html">&lt;h2&gt;Preámbulo&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Uno de los acentos propuestos por la &lt;a href="http://www.gc36.org/"&gt;Congregación General 36&lt;/a&gt; de la &lt;a href="https://serjesuita.es/"&gt;Compañía de Jesús&lt;/a&gt; fue el &lt;a href="https://jesuit.network/"&gt;&lt;strong&gt;trabajo en red&lt;/strong&gt;&lt;/a&gt;. Aunque este modo de trabajar no es cuestión sólo de tecnología, ésta ofrece múltiples oportunidades para hacerlo. En el siguiente texto se recogen algunas herramientes que pueden ser útiles …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Preámbulo&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Uno de los acentos propuestos por la &lt;a href="http://www.gc36.org/"&gt;Congregación General 36&lt;/a&gt; de la &lt;a href="https://serjesuita.es/"&gt;Compañía de Jesús&lt;/a&gt; fue el &lt;a href="https://jesuit.network/"&gt;&lt;strong&gt;trabajo en red&lt;/strong&gt;&lt;/a&gt;. Aunque este modo de trabajar no es cuestión sólo de tecnología, ésta ofrece múltiples oportunidades para hacerlo. En el siguiente texto se recogen algunas herramientes que pueden ser útiles para trabajar de forma &lt;strong&gt;colaborativa&lt;/strong&gt;, especialmente en ámbitos de enseñanza. Estas herramientas y técnicas nos puede ayudar a potenciar nuestro modo de trabajar en red.&lt;/em&gt;&lt;/p&gt;
+&lt;h1&gt;Herramientas colaborativas útiles en la enseñanza&lt;/h1&gt;
+&lt;p&gt;Aunque conviene aclarar siempre que no toda innovación proviene de las TIC, está claro que muchas posibilidades que ofrecen están por explorar y aprovechar en el mundo de la enseñanza. Este texto hace un breve recorrido sobre algunas de las herramientas que han surgido recientemente. En concreto, se pone el foco en la Web 2.0 y las herramientas orientadas al &lt;strong&gt;trabajo colaborativo&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;En sucesivos documentos trataré de proponer formas de aplicarlos que pueden ser útiles para alumnos y profesores, por ejemplo, en la elaboración de &lt;strong&gt;apuntes&lt;/strong&gt; o de &lt;strong&gt;unidades didácticas&lt;/strong&gt;. &lt;/p&gt;
+&lt;h2&gt;El trabajo colaborativo&lt;/h2&gt;
+&lt;p&gt;El concepto de &lt;strong&gt;Web 2.0&lt;/strong&gt; (que hace tiempo dejó de ser novedoso) nos da un punto de partida para reflexionar sobre las posibilidades de compartición de información y colaboración que permite Internet. La principal aportación de esta forma de usar Internet consiste en que los usuarios no sólo consultan información publicada por servidores centralizados, sino que la información es la que van aportando conjuntamente todos los usuarios. En pocas palabras, el éxito y el valor de la Web 2.0 consiste en que es construido por todos.&lt;/p&gt;
+&lt;p&gt;Uno de los ejemplos más conocidos de esta forma de usar la web es la &lt;strong&gt;Wikipedia&lt;/strong&gt;. Como sabemos, este sitio nos permite editar, corregir y añadir texto a cualquiera de sus artículos, permitiendo que una gran cantidad de usuarios participen en la escritura de esta enciclopedia de Internet. Este proyecto nos da algunas pistas de lo que Internet y las TIC pueden aportar al mundo de la educación.
+Las tecnologías de Internet y la Web 2.0 también ha favorecido la aparición de nuevas formas de trabajar, colaborar, consumir e intercambiar bienes de forma colaborativa. A esto llamamos &lt;strong&gt;economía colaborativa&lt;/strong&gt;(1).&lt;/p&gt;
+&lt;p&gt;Una de los casos de éxito más evidentes de las ventajas del &lt;strong&gt;trabajo colaborativo&lt;/strong&gt; es el desarrollo del software libre. Por ejemplo, en el desarrollo del núcleo de Linux, y los sistemas operativos basados en este, han participado miles de personas(2) repartidas por el mundo.&lt;/p&gt;
+&lt;p&gt;Esto es posible, entre otras cosas, gracias a herramientas de &lt;strong&gt;gestión de versiones&lt;/strong&gt; que permiten coordinar y combinar el trabajo de gente diferente que trabaja en los mismos documentos (el código fuente de los programas, la documentación, etc). Una de las herramientas más exitosas en este ámbito es &lt;strong&gt;Git&lt;/strong&gt;. Estas herramientas disponen de funcionalidades avanzadas para seguir el rastro de los cambios, &lt;strong&gt;combinar (&lt;em&gt;merge&lt;/em&gt;) distintas aportaciones&lt;/strong&gt; de los colaboradores gestionar conflictos entre distintas aportaciones, crear nuevas ramas (&lt;em&gt;branch, fork&lt;/em&gt;) de desarrollo, etc.&lt;/p&gt;
+&lt;h2&gt;Algunas herramientas interesantes&lt;/h2&gt;
+&lt;p&gt;En un ámbito más general, los sistemas de &lt;strong&gt;almacenamiento compartido&lt;/strong&gt; están ganando difusión: sistemas como &lt;em&gt;Google Drive, OneDrive, Dropbox&lt;/em&gt;, permiten compartir una serie de ficheros, y ofrecen funcionalidades básicas de seguimiento de versiones y cambios. Además, últimamente estos sistemas han ido introduciendo funcionalidades que permiten el trabajo colaborativo. Muchos de estos servicios permiten además insertar en cada documento &lt;strong&gt;comentarios en línea&lt;/strong&gt;, que orientan las futuras revisiones y correcciones.&lt;/p&gt;
+&lt;p&gt;El concepto de &lt;strong&gt;escritura colaborativa&lt;/strong&gt; también está ganando fuerza. Distintos sitios de internet ofrecen herramientas para esto, con diferentes enfoques: &lt;em&gt;GoogleDocs, Etherpad, Penflip, Draft&lt;/em&gt; (draftin.com), &lt;em&gt;Classeur.io, StackEdit.io&lt;/em&gt;, etc.&lt;/p&gt;
+&lt;p&gt;Otra de las funciones que emergen en los sitios web 2.0 son los sistemas de &lt;strong&gt;reputación y votación&lt;/strong&gt; (&lt;em&gt;rating&lt;/em&gt;) que permiten votar y valorar los contenidos disponibles. Quizás su forma más conocida sean los “me gusta” (&lt;em&gt;likes&lt;/em&gt;) de Facebook. Esto nos debe advertir en primer lugar de que un sistema de reputación puede degenerar en concursos de popularidad, que desvirtúan su propósito original. Este riesgo debe ser tenido en cuenta especialmente si se trabaja con adolescentes. Pero si conseguimos encauzarlo adecuadamente, pueden servir para poner de relieve las aportaciones más valiosas para todos. Algunas aplicaciones de sistemas de votación en Internet son: &lt;em&gt;Digg&lt;/em&gt;, una web de noticias en que las más votadas aparecen en primer lugar; &lt;em&gt;StackExchange&lt;/em&gt;, una web de preguntas y respuestas, donde las respuestas más votadas aparecen en primer lugar.&lt;/p&gt;
+&lt;p&gt;Andrés González SJ
+&lt;a href="http://twitter.com/andrescg2sj"&gt;@andrescg2sj&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;h2&gt;Citas&lt;/h2&gt;
+&lt;p&gt;(1) Un interesante estudio de este tipo de consumo se puede encontrar en “What’s mine is yours”, de Rachel Botsman y Roo Rogers. &lt;a href="https://www.harpercollins.com/9780061963544/whats-mine-is-yours"&gt;https://www.harpercollins.com/9780061963544/whats-mine-is-yours&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(2) &lt;a href="http://www.zdnet.com/article/who-writes-linux-almost-10000-developers/"&gt;http://www.zdnet.com/article/who-writes-linux-almost-10000-developers/&lt;/a&gt;&lt;/p&gt;</content></entry><entry><title>Financiación de contenidos digitales</title><link href="/financiacion-de-contenidos-digitales.html" rel="alternate"></link><published>2019-06-13T21:30:00+02:00</published><updated>2019-06-13T21:30:00+02:00</updated><author><name>andrescg2sj</name></author><id>tag:None,2019-06-13:/financiacion-de-contenidos-digitales.html</id><summary type="html">&lt;h3&gt;Preámbulo&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Este artículo contiene un análisis resumido de algunas tendencias recientes en la financiación de la creación y difusión de contenidos digitales. En el fondo, se trata de buscar aquellos modelos o sistemas que permiten por un lado, compartir libremente un contenido que se recibe ("Gratis lo recibísteis; dadlo gratis …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;h3&gt;Preámbulo&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Este artículo contiene un análisis resumido de algunas tendencias recientes en la financiación de la creación y difusión de contenidos digitales. En el fondo, se trata de buscar aquellos modelos o sistemas que permiten por un lado, compartir libremente un contenido que se recibe ("Gratis lo recibísteis; dadlo gratis", Mt 10,8) y por otro hacer, en la medida de lo posible, que los autores reciban una remuneración adecuada ("el obrero merece su sustento" Mt 10,10)&lt;/em&gt;. &lt;/p&gt;
+&lt;h1&gt;Financiación de la creación de contenidos en Internet&lt;/h1&gt;
+&lt;p&gt;Los autores que tratan de crear contenidos y rentabilizar su trabajo en la era digital se enfrentan a un escenario complejo. Mientras la industria y los gobiernos siguen promoviendo campañas contra la piratería, una gran mayoría de usuarios no se plantea que descargar contenidos de Internet sin pagar por ellos sea un problema.&lt;/p&gt;
+&lt;p&gt;En parte, esta situación está relacionada con el mantenimiento de modelos de negocio tradicionales en una situación en que sus presupuestos clave no se pueden asegurar. En concreto, el modelo tradicional se basa en rentabilizar la creación de un producto mediante la venta de una masa crítica de unidades de aquel; pero en el nuevo escenario, el desarrollo de las TIC hace cada vez más difícil controlar las copias y reproducciones de una pieza de contenido.&lt;/p&gt;
+&lt;p&gt;Se puede encontrar una reflexión interesante y más amplia en el artículo &lt;a href="https://www.techrepublic.com/blog/it-security/why-strict-copyright-enforcement-is-becoming-obsolete/"&gt;"Why strict copyright enforcement is becoming obsolete"&lt;/a&gt; (Chad Perrin, 2011), donde se desarrollan las dificultades que se plantean al tratar de controlar las copias de un contenido protegido (supuestamente) por copyright.&lt;/p&gt;
+&lt;h2&gt;Algunas soluciones existentes&lt;/h2&gt;
+&lt;p&gt;En este documento se recogen diferentes soluciones que han aparecido en los últimos años.&lt;/p&gt;
+&lt;h3&gt;Streaming&lt;/h3&gt;
+&lt;p&gt;Es una de las soluciones que parece tener más éxito. Ejemplos de ésto son las plataformas audiovisuales con &lt;strong&gt;HBO&lt;/strong&gt; y &lt;strong&gt;Netflix&lt;/strong&gt;, cuyo reclamo más poderoso son las series. El modelo de negocio en este caso es el pago por suscripción.&lt;/p&gt;
+&lt;p&gt;Otra plataforma basada en streaming, en este caso para la música, es &lt;strong&gt;Spotify&lt;/strong&gt;. Tiene dos modalidades, la versión gratuita y la versión premium. En la versión gratuita, el contenido se rentabiliza mediante la inserción de &lt;em&gt;anuncios&lt;/em&gt; (al estilo de los tradicionales). La versión premium tiene una cuota de suscripción.&lt;/p&gt;
+&lt;p&gt;Y también podemos incluir en esta categoría a &lt;strong&gt;YouTube&lt;/strong&gt;. Esta plataforma, con cientos de millones de usuarios, obtiene un retorno monetario a través de la publicidad que inserta al comienzo de los vídeos (y últimamente, también en medio de ellos).&lt;/p&gt;
+&lt;h4&gt;Consideraciones sobre el streaming&lt;/h4&gt;
+&lt;p&gt;Se podría considerar que las plataformas citadas han alcanzado un éxito notable, lo cual sería a su vez un aval del modelo de streaming. Sin embargo, hay algunas razones por las que este modelo no se puede considerar totalmente satisfactorio.&lt;/p&gt;
+&lt;p&gt;En primer lugar, en estos sistemas, o bien se depende de la conexión a Internet para reproducir un contenido, o bien la aplicación se vuelve más compleja para evitar que se extraiga el contenido fuera de la plataforma. Segundo, se desaprovecha toda la tecnología de almacenamiento desarrollada en los últimos años, y por lo tanto las inversiones de muchos usuarios en soportes de almacenamiento.&lt;/p&gt;
+&lt;h3&gt;Mecenazgo y patrocinio&lt;/h3&gt;
+&lt;p&gt;Consisten básicamente en recaudar los fondos necesarios de forma previa a la creación de un contenido. El modelo en sí no es nuevo, pues encontramos casos célebres ya en el Renacimiento. Sin embargo, la forma de aplicarlo sí, ya que en lugar de tener que buscar un gran inversor, es posible atraer a un gran número de pequeños contribuyentes. De aquí el usual término de micro-mecenazgo, que se suele emplear comúnmente como traducción de &lt;em&gt;crowdfunding&lt;/em&gt;. Un ejemplo de plataforma que permite este tipo de recaudaciones es &lt;a href="https://www.kickstarter.com/?lang=es"&gt;Kickstarter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Si el crowdfunding recoge una gran cantidad de aportaciones anónimas para posibilitar la creación de un contenido de forma puntual, podríamos distinguir el &lt;em&gt;patrocinio&lt;/em&gt; como el caso en que un conjunto más o menos fijo de personas aportan, mediante una cuota, fondos para la creación periódica de un contenido. El contenido creado es público, aunque este modelo contempla la posibilidad de recompensar a los suscriptores con contendos exclusivos.
+Una plataforma de este tipo muy popular entre los YouTubers es &lt;a href="https://www.patreon.com"&gt;Patreon&lt;/a&gt;. Un destacable ejemplo en este caso sería &lt;strong&gt;Jaime Altozano&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3&gt;Pago voluntario&lt;/h3&gt;
+&lt;p&gt;En el otro extremo, encontramos un modelo que puede resultar sorprendente a primera vista. Se trata de las &lt;strong&gt;donaciones&lt;/strong&gt;. Podemos encontrar diferetes proyectos y webs en Internet que se sostienen con ayuda de donaciones anónimas. En el libro &lt;a href="https://books.google.es/books?id=u9OuAwAAQBAJ&amp;amp;pg=PT12&amp;amp;lpg=PT12&amp;amp;dq=donation+systems+content+monetization&amp;amp;source=bl&amp;amp;ots=RW8-Rg5PD1&amp;amp;sig=e7HYDhEtWtmT-gAHeP4TVPWYDwQ&amp;amp;hl=es&amp;amp;sa=X&amp;amp;ved=0ahUKEwialaf-ydrXAhXDVRQKHfbdCw84ChDoAQgxMAA#v=onepage&amp;amp;q=donation%20systems%20content%20monetization&amp;amp;f=false"&gt;Social Media Revenue&lt;/a&gt; de Laurel Papworth, encontramos algunas claves sobre este método de financiación.
+Muchos sitios web incorporan widgets para realizar donaciones, &lt;a href="https://developer.paypal.com/docs/classic/paypal-payments-standard/integration-guide/donate_step_1/"&gt;como el de PayPal&lt;/a&gt;. Otro sistema interesante de micro-donaciones es &lt;a href="https://flattr.com/"&gt;Flattr&lt;/a&gt;. Para utilizarlo, cualquier usuario de Internet puede registrarse en Flattr pagando una cuota, e instalar una extensión en su navegador. Esta extensión registrará los sitios que visita el usuario y compartirá esa información con Flattr, de forma aquellos sitios visitados que estén vinculados a Flattr recibirán una donación correspondiente al tiempo empleado por el usuario en su web. Esta plataforma también permite al usuario indicar explícitamente a qué sitios o autores quiere contribuir.&lt;/p&gt;
+&lt;p&gt;Podríamos considerar este modelo dentro de un caso más general denominado &lt;a href="http://freakonomics.com/2008/05/12/another-pay-as-you-wish-success-story/"&gt;pay-as-you-wish&lt;/a&gt; ("pague lo que desee") estudiado por Stephen J. Dubner (autor de Freakonomics, junto a Steven Levitt).&lt;/p&gt;
+&lt;h3&gt;Modelos "arbitrados"&lt;/h3&gt;
+&lt;p&gt;Salomón Derreza, en su artículo &lt;a href="http://www.letraslibres.com/mexico-espana/como-acabar-la-pirateria-digital-sin-caer-en-la-censura"&gt;"Cómo acabar con la piratería sin caer en la censura"&lt;/a&gt;, propone la creación de un Impuesto Cultural Cibernético (ICC) a escala internacional para remunerar a los autores. Según su idea, se obtendría de Google la información que permitiría estimar el número de accesos a cada obra (vídeos, canciones, textos, programas, etc), y así poder establecer un sistema de "pago por clic". Se podrían objetar una serie dificultades prácticas, aunque la idea de fondo es interesante. &lt;/p&gt;
+&lt;h2&gt;Otros modelos existentes&lt;/h2&gt;
+&lt;p&gt;En el caso de la música, conviene mencionar el modelo de &lt;a href="https://www.epidemicsound.com/"&gt;Epidemic Sound&lt;/a&gt;. Esta plataforma ofrece, mediante pago de una suscripción, una amplia variedad de temas musicales que los productores de vídeos pueden incorporar a sus vídeos, sin límite. La plataforma negocia por otra parte con los autores, pagándoles por hacer su música disponible en la plataforma.&lt;/p&gt;
+&lt;p&gt;Modelos más complejos para crear y monetizar valor en la red son los llamados &lt;strong&gt;mercados de dos lados&lt;/strong&gt; (&lt;em&gt;two-sided markets&lt;/em&gt;) o el caso general de mercados de múltiples lados. Se trata de redes que generan valor poniendo en contacto dos o más grupos de usuarios. Un ejemplo de esto es Facebook (que monetiza el valor de su red mediante publicidad).&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://twitter.com/andrescg2sj"&gt;@andrescg2sj&lt;/a&gt;&lt;/p&gt;</content></entry></feed>
