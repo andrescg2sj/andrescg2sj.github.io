@@ -8,7 +8,7 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="./">El taller y el mosaico </a></h1>
+                <h1><a href="./">El taller y el mosaico</a></h1>
                 <nav><ul>
                     <li class="active"><a href="./category/aprendizaje.html">aprendizaje</a></li>
                     <li><a href="./category/contenidos.html">contenidos</a></li>
@@ -245,6 +245,16 @@ esto se enlaza con una cuestión más amplia y le corresponde un documento apart
         var disqus_shortname = 'andrescg2sj-github-io';
         var disqus_identifier = 'una-propuesta-sistema-de-apuntes-colaborativos.html';
         var disqus_url = './una-propuesta-sistema-de-apuntes-colaborativos.html';
+
+	var disqus_config = function() {
+	shortname = disqus_shortname;
+	this.page.identifier = disqus_identifier;
+	this.page.title = 'Una propuesta: Sistema de apuntes colaborativos';
+	this.page.url = disqus_url;
+
+	};
+	
+	
         (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//andrescg2sj-github-io.disqus.com/embed.js';
