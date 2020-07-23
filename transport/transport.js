@@ -1,4 +1,5 @@
 /* A.Gonzalez. SJ AMDG */
+
 CHAR_LYRICS = "*"
 CHAR_CHORDS = "@"
 
