@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" /> 
+<style>
+.plus-button {
+    background-color: #80dd80;
+    font-size: 20pt;
+}
+
+.minus-button {
+    background-color: #dd8080;
+    font-size: 20pt;
+}
+
+.reset-button {
+    background-color: #e0e0dd;
+    font-size: 20pt;
+}
+
+</style>
+
+    <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-156895209-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+
+<script src="transport.js">
+</script>
+
+</head>
+<body>
+
+<h1>Transportador de acordes de guitarra</h1>
+<h2>¿Para qué sirve esta página?</h2>
+Para cambiar la tonalidad de una canción con acordes de guitarra.
+
+<h2>¿Qué hay que hacer?</h2>
+<form id="frm1">
+Puedes escribir en el siguiente cuadro el texto de la canción.
+Los acordes deben ir en lineas alternadas con la letra, cada acorde sobre la sílaba en la que se toca.<br />
+<h2>Letra y acordes:</h2>
+<textarea name="mydata" rows="10" cols="40" id="song-input">
+mim          DO 
+Yo celebraré 
+                   RE7
+Delante del Señor,
+                  mim  
+cantaré un canto nuevo.
+
+mim  DO              RE7
+Yo le alabaré porque Él ha hecho
+mim
+grandes cosas.
+</textarea>
+<br />
+<p>
+Sistema de cifrado de notas:<br />
+<input type="radio" id="cipher-detect" name="cipher" value="detect" checked><label>Detectar</label></input><br />
+<input type="radio" id="cipher-spanish" name="cipher" value="spanish"><label>Español</label></input><br />
+<input type="radio" id="cipher-american" name="cipher" value="american"><label>Americano</label></input><br />
+</p>
+</form>
+<p>Pulsa [+] o [-] para aumentar o disminuir el número de semitonos que se transportará la canción. Pulsa [0] para mostrar la canción en la tonalidad original.</p>
+
+
+<p><span class="minus-button" onclick="decrementShiftCh();centerView('song-input')">[ - ]</span>
+<span class="reset-button" onclick="resetShiftCh();centerView('song-input')">[ 0 ]</span>
+<!-- <span class="reset-button" onclick="testChordLine()">[ 0 ]</span> -->
+<span class="plus-button" onclick="incrementShiftCh();centerView('song-input')">[ + ]</span>
+</p>
+<h3 id="transportada">Canción transportada</h3>
+<p>desplazamiento: <span id="shift-label">0</span></p>
+<br />
+<div id="display"></div>
+
+</body>
+</html> 
