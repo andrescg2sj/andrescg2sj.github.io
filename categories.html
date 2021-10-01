@@ -1,73 +1,184 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-        <meta charset="utf-8" />
-        <title>El taller y el mosaico - Categories</title>
-        <link rel="stylesheet" href="https://andrescg2sj.github.io/theme/css/main.css" />
-</head>
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://andrescg2sj.github.io/">El taller y el mosaico</a></h1>
-                <nav><ul>
-                    <li><a href="https://andrescg2sj.github.io/category/aprendizaje.html">aprendizaje</a></li>
-                    <li><a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a></li>
-                    <li><a href="https://andrescg2sj.github.io/category/relacion.html">relación</a></li>
-                    <li><a href="https://andrescg2sj.github.io/category/tic.html">TIC</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
-    <h1>Categories on El taller y el mosaico</h1>
-    <ul>
-        <li><a href="https://andrescg2sj.github.io/category/aprendizaje.html">aprendizaje</a> (1)</li>
-        <li><a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a> (4)</li>
-        <li><a href="https://andrescg2sj.github.io/category/relacion.html">relación</a> (1)</li>
-        <li><a href="https://andrescg2sj.github.io/category/tic.html">TIC</a> (1)</li>
-    </ul>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
+		<title>El taller de mosaicos</title>
+		<meta name="description" content="">
+		<meta name="author" content="andrescg2sj">
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
+		<link rel="stylesheet" href="./theme/css/foundation.css" />
+		<link rel="stylesheet" href="./theme/css/pygment/monokai.css" />
+		<link rel="stylesheet" href="./theme/css/custom.css" />
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+		<!-- GOOGLE WEB FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./theme/css/alt-fonts.css" />
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+		<script src="./theme/js/modernizr.js"></script>
 
-    <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		<!-- Feeds -->
 
-    ga('create', 'UA-156895209-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-<script type="text/javascript">
-    var disqus_shortname = 'andrescg2sj-github-io';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-</body>
+<script>var _gaq=[['_setAccount','UA-156895209-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+
+		<!-- mathjax config similar to math.stackexchange -->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$', '$'] ],
+				displayMath: [ ['$$', '$$']],
+				processEscapes: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+			},
+			messageStyle: "none",
+			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+		});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="off-canvas-wrap">
+			<div class="inner-wrap">
+				<!-- mobile top bar to activate nav -->
+				<nav class="tab-bar show-for-small">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+
+					<section class="middle tab-bar-section">
+						<h1 class="title">El&nbsp;taller&nbsp;de&nbsp;mosaicos</h1>
+					</section>
+				</nav>
+
+				<!-- mobile side bar nav -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><a href=".">Home</a></li>
+						<li><label>Categories</label></li>
+							<li ><a href="./category/aprendizaje.html">aprendizaje</a></li>
+							<li ><a href="./category/produccion.html">producción</a></li>
+							<li ><a href="./category/relacion.html">relación</a></li>
+							<li ><a href="./category/tic.html">TIC</a></li>
+
+						<li><label>Links</label></li>
+							<li><a href="http://getpelican.com/">Pelican</a></li>
+							<li><a href="http://python.org/">Python.org</a></li>
+							<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+							<li><a href="#">You can modify those links in your config file</a></li>
+
+
+						<li><label>Monthly Archives</label></li>
+									<li><a href="/posts/2021/07/index.html">julio 2021 (1)</a></li>
+									<li><a href="/posts/2020/06/index.html">junio 2020 (1)</a></li>
+									<li><a href="/posts/2020/01/index.html">enero 2020 (1)</a></li>
+									<li><a href="/posts/2019/07/index.html">julio 2019 (1)</a></li>
+									<li><a href="/posts/2019/06/index.html">junio 2019 (1)</a></li>
+									<li><a href="/posts/2019/02/index.html">febrero 2019 (2)</a></li>
+
+						<li><label>Social</label></li>
+							<li><a href="https://github.com/andrescg2sj">GitHub</a></li>
+							<li><a href="https://twitter.com/andrescg2sj">TW: @andrescg2sj</a></li>
+					</ul>	
+				</aside>
+
+				<!-- top bar nav -->
+				<nav class="top-bar hide-for-small-only" data-topbar>
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="./">El taller de mosaicos</a></h1>
+						</li>
+					</ul>
+
+					<section class="top-bar-section">
+						<ul class="left">
+								<li ><a href="./category/aprendizaje.html">aprendizaje</a></li>
+								<li ><a href="./category/produccion.html">producción</a></li>
+								<li ><a href="./category/relacion.html">relación</a></li>
+								<li ><a href="./category/tic.html">TIC</a></li>
+						</ul>
+                        <ul class="right">                                                                                                                                           
+                                                                                                          
+····                                                                                                                                       
+                                     <li><a href="./pages/autor.html">autor</a></li>                                    
+                                                                                                                                          
+                                                                                                                                             
+                        </ul>  
+					</section>
+				</nav>
+
+				<!-- Main Page Content and Sidebar -->
+				<section class="main-section">
+					<div class="row">
+						<!-- Main Content -->
+						<div class="medium-9 small-12 columns" role="content">
+	<ul>
+		<li><a href="./category/aprendizaje.html">aprendizaje</a></li>
+		<li><a href="./category/produccion.html">producción</a></li>
+		<li><a href="./category/relacion.html">relación</a></li>
+		<li><a href="./category/tic.html">TIC</a></li>
+	</ul>
+						</div>
+						<!-- End Main Content -->
+						<!-- Sidebar -->
+						<aside class="medium-3 hide-for-small-only columns">
+							<div class="panel">
+								<h5>Links</h5>
+								<ul class="side-nav">
+									<li><a href="http://getpelican.com/">Pelican</a></li>
+									<li><a href="http://python.org/">Python.org</a></li>
+									<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+									<li><a href="#">You can modify those links in your config file</a></li>
+								</ul>
+							</div>
+
+							<div class="panel">
+								<h5>Tags</h5>
+								<ul class="tag-cloud">
+								</ul>
+							</div>
+
+							<div class="panel">
+								<h5>Monthly Archives</h5>
+								<ul class="side-nav">
+											<li><a href="/posts/2021/07/index.html">julio 2021 (1)</a></li>
+											<li><a href="/posts/2020/06/index.html">junio 2020 (1)</a></li>
+											<li><a href="/posts/2020/01/index.html">enero 2020 (1)</a></li>
+											<li><a href="/posts/2019/07/index.html">julio 2019 (1)</a></li>
+											<li><a href="/posts/2019/06/index.html">junio 2019 (1)</a></li>
+											<li><a href="/posts/2019/02/index.html">febrero 2019 (2)</a></li>
+								</ul>
+							</div>
+
+							<div class="panel">
+								<h5>Social</h5>
+								<ul class="side-nav">
+									<li><a href="https://github.com/andrescg2sj">GitHub</a></li>
+									<li><a href="https://twitter.com/andrescg2sj">TW: @andrescg2sj</a></li>
+								</ul>
+							</div>
+						</aside>
+						<!-- End Sidebar -->
+					</div>
+
+					<!-- Footer -->
+					<footer class="row">
+						<div class="medium-9 small-12">
+							<hr/>
+							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
+						</div>
+					</footer>
+					<!-- End Footer -->
+				</section>
+				<a class="exit-off-canvas"></a>
+			</div><!--off-canvas inner-->
+		</div><!--off-canvas wrap-->
+
+		<script src="./theme/js/jquery.js"></script>
+		<script src="./theme/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
 </html>

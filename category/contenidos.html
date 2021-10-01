@@ -1,398 +1,218 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-        <meta charset="utf-8" />
-        <title>El taller y el mosaico - contenidos</title>
-        <link rel="stylesheet" href="https://andrescg2sj.github.io/theme/css/main.css" />
-</head>
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<body id="index" class="home">
-        <header id="banner" class="body">
-                <h1><a href="https://andrescg2sj.github.io/">El taller y el mosaico</a></h1>
-                <nav><ul>
-                    <li><a href="https://andrescg2sj.github.io/category/aprendizaje.html">aprendizaje</a></li>
-                    <li class="active"><a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a></li>
-                    <li><a href="https://andrescg2sj.github.io/category/relacion.html">relación</a></li>
-                    <li><a href="https://andrescg2sj.github.io/category/tic.html">TIC</a></li>
-                </ul></nav>
-        </header><!-- /#banner -->
+		<title>El taller de mosaicos</title>
+		<meta name="description" content="">
+		<meta name="author" content="andrescg2sj">
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://andrescg2sj.github.io/the-public-domain-james-boyle-recension.html">The public domain, James Boyle (Recensión)</a></h1>
-<footer class="post-info">
-        <abbr class="published" title="2021-07-23T18:00:00+02:00">
-                Published: vie 23 julio 2021
-        </abbr>
+		<link rel="stylesheet" href="../theme/css/foundation.css" />
+		<link rel="stylesheet" href="../theme/css/pygment/monokai.css" />
+		<link rel="stylesheet" href="../theme/css/custom.css" />
 
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://andrescg2sj.github.io/author/andrescg2sj.html">andrescg2sj</a>
-        </address>
-<p>In <a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a>.</p>
+		<!-- GOOGLE WEB FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono|Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../theme/css/alt-fonts.css" />
 
-</footer><!-- /.post-info --><p>James Boyle, <em>The Public Domain. The enclosing of the commons of
+		<script src="../theme/js/modernizr.js"></script>
+
+		<!-- Feeds -->
+
+<script>var _gaq=[['_setAccount','UA-156895209-1'],['_trackPageview']];(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.src='//www.google-analytics.com/ga.js';s.parentNode.insertBefore(g,s)}(document,'script'))</script>
+
+		<!-- mathjax config similar to math.stackexchange -->
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [ ['$', '$'] ],
+				displayMath: [ ['$$', '$$']],
+				processEscapes: true,
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+			},
+			messageStyle: "none",
+			"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+		});
+		</script>
+		<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	</head>
+	<body>
+		<div class="off-canvas-wrap">
+			<div class="inner-wrap">
+				<!-- mobile top bar to activate nav -->
+				<nav class="tab-bar show-for-small">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+					</section>
+
+					<section class="middle tab-bar-section">
+						<h1 class="title">El&nbsp;taller&nbsp;de&nbsp;mosaicos</h1>
+					</section>
+				</nav>
+
+				<!-- mobile side bar nav -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><a href="..">Home</a></li>
+						<li><label>Categories</label></li>
+							<li ><a href="../category/aprendizaje.html">aprendizaje</a></li>
+							<li class="active"><a href="../category/contenidos.html">contenidos</a></li>
+							<li ><a href="../category/relacion.html">relación</a></li>
+							<li ><a href="../category/tic.html">TIC</a></li>
+
+						<li><label>Links</label></li>
+							<li><a href="http://getpelican.com/">Pelican</a></li>
+							<li><a href="http://python.org/">Python.org</a></li>
+							<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+							<li><a href="#">You can modify those links in your config file</a></li>
+
+
+						<li><label>Monthly Archives</label></li>
+									<li><a href="/posts/2021/07/index.html">julio 2021 (1)</a></li>
+									<li><a href="/posts/2019/07/index.html">julio 2019 (1)</a></li>
+									<li><a href="/posts/2019/06/index.html">junio 2019 (1)</a></li>
+									<li><a href="/posts/2019/02/index.html">febrero 2019 (1)</a></li>
+
+						<li><label>Social</label></li>
+							<li><a href="https://github.com/andrescg2sj">GitHub</a></li>
+							<li><a href="https://twitter.com/andrescg2sj">TW: @andrescg2sj</a></li>
+					</ul>	
+				</aside>
+
+				<!-- top bar nav -->
+				<nav class="top-bar hide-for-small-only" data-topbar>
+					<ul class="title-area">
+						<li class="name">
+							<h1><a href="../">El taller de mosaicos</a></h1>
+						</li>
+					</ul>
+
+					<section class="top-bar-section">
+						<ul class="left">
+								<li ><a href="../category/aprendizaje.html">aprendizaje</a></li>
+								<li class="active"><a href="../category/contenidos.html">contenidos</a></li>
+								<li ><a href="../category/relacion.html">relación</a></li>
+								<li ><a href="../category/tic.html">TIC</a></li>
+						</ul>
+                        <ul class="right">                                                                                                                                           
+                                                                                                                                             
+                        </ul>  
+					</section>
+				</nav>
+
+				<!-- Main Page Content and Sidebar -->
+				<section class="main-section">
+					<div class="row">
+						<!-- Main Content -->
+						<div class="medium-9 small-12 columns" role="content">
+							<div class="row">
+								<div class="small-12 columns">
+									<h2>Category: contenidos</h2>
+								</div>
+							</div>
+
+<article>
+	<h3><a href="../the-public-domain-james-boyle-recension.html">The public domain, James Boyle (Recensión)</a></h3>
+	<h6>Written by <a href="../author/andrescg2sj.html">andrescg2sj</a> in <a href="../category/contenidos.html">contenidos</a> on vie 23 julio 2021.</h6>
+	<p>James Boyle, <em>The Public Domain. The enclosing of the commons of
     the mind</em> (New Haven: Yale University Press, 2008). Accesible online
     en: <a href="https://thepublicdomain.org/download">https://thepublicdomain.org/download</a></p>
 <h1>Autor</h1>
 <p>El autor es James Boyle, profesor de Derecho en la Escuela de Derecho
-de Duke (<em>Duke Law School</em>). Es miembro fundador del Centro para el
-Estudio del Dominio Público en dicha institución, y también miembro de
-la organización <em>Creative Commons</em> desde sus inicios. Ha publicado
-numerosos artículos y libros relacionados con propiedad intelectual.</p>
-<h1>Términos clave</h1>
-<ul>
-<li><strong>Propiedad intelectual</strong>. En los términos del libro, se puede
-    describir como el conjunto de derechos legales atribuidos al titular
-    en torno a una obra intangible. Inicialmente se concebía como un
-    monopolio exclusivo concedido al titular para incentivar la
-    creación. Sus principales formas son el copyright y las patentes.</li>
-<li><strong>Dominio público:</strong> categoría que engloba los bienes intelectuales
-    que forma parte de la cultura compartida, no están protegidos y
-    pueden ser utilizados y modificados libremente.</li>
-<li><strong>Cercamiento</strong> (<em>enclosing</em>): Proceso de transición de propiedades
-    comunales (<em>the “commons”</em>) a propiedad privada. El autor argumenta
-    que se está produciendo un segundo cercamiento en los bienes
-    intelectuales.</li>
-<li><strong>Bienes no rivales</strong>. Aquellos bienes cuyo uso y disfrute no
-    excluye los de otros individuos, como es el caso de las ideas.</li>
-<li><strong>Uso justo</strong> (<em>fair use</em>)<strong>.</strong> Formas de uso de bienes
-    intelectuales que bajo determinadas condiciones son legítimas aunque
-    dichos bienes estén registrados bajo propiedad intelectual.</li>
-</ul>
-<h1>Síntesis. Diez ideas principales</h1>
-<p>Presentaremos una breve síntesis de cada capítulo, recogiendo al final
-un listado de las diez ideas principales.</p>
-<p><strong>Capítulo 1</strong>. Aborda la necesidad de la innovación y la invención y
-las inversiones que requieren. Se presenta la distinción entre los
-bienes rivales y no-rivales, y su relación con la necesidad de recuperar
-las inversiones en innovación. Se reflexiona sobre la función de la
-propiedad intelectual como medio para evitar que el abaratamiento de las
-copias produzca rupturas de mercado. Se discute la conveniencia del
-término “propiedad” en este caso, y se ilustra el ejemplo de la
-Biblioteca del Congreso en EE.UU., donde en torno al 85% de los
-materiales son efectivamente inaccesibles debido al copyright.</p>
-<p><strong>Capítulo 2</strong>. Se recorre la historia de la legislación y
-conceptualización de la propiedad intelectual. En la tradición
-Anglo-Americana, marcada por el utilitarismo, parte de una paradigmática
-carta de Thomas Jefferson en respuesta a una consulta sobre patentes.
-Jefferson defiende que este tipo de derechos exclusivos, aunque
-necesarios, no deben extenderse más de lo imprescindible (para evitar
-las desventajas de los monopolios). Sin embargo, en contra de este
-principio, distintas decisiones judiciales posteriores extendieron los
-derechos de copyright hasta décadas después de la muerte del autor. Se
-presenta también la corriente francesa, representada por el concepto de
-derechos de autor, y que involucra consideraciones de derecho natural.
-En el fondo está la concepción de que el autor imprime una huella
-personal a su trabajo. Se razona la necesidad de principios limitadores
-a este tipo de derechos, y cómo la legislación resultante presenta una
-mezcla de influencias del derecho natural y el utilitarismo. Aunque los
-planteamientos recogidos son valiosos, les falta un elemento que
-considerar. La noción de lo público y compartido. Esto tiene un valor en
-sí, y no es el mero residuo de la propiedad privada.</p>
-<p><strong>Capítulo 3</strong>. Presenta el proceso de cercamiento, que supuso la
-transición del sistema de “tierras comunales”, a la gestión privada de
-esas tierras. La enseñanza clásica de la economía lo valora como el paso
-de una situación anárquica a un sistema racional y eficiente que
-promueve la agricultura y el crecimiento económico. Sin embargo, existe
-como mínimo una sospecha de que también constituyese una apropiación
-indebida de lo común por parte de los poderosos y bendecida por la ley.
-Podemos ver similitudes con el desarrollo de la propiedad intelectual.
-El fundamento de las leyes actuales de copyright está pensado para
-regular las relaciones entre grandes corporaciones en los años 50. Pero
-el avance de la tecnología ha creado un nuevo escenario en que los
-individuos quedan afectados por esa ley. Es posible que estemos ante un
-“segundo cercamiento”.</p>
-<p><strong>Capítulo 4</strong>. Recuerda la elaboración del documento (<em>White Paper</em>) de
-la Oficina de Patentes y Marcas, que dio forma a la actual legislación,
-señalando las deficiencias relevantes que contenía. Reflexiona sobre la
-forma de pensar que sostiene forma de razonamiento. Consiste en asumir
-que a medida que el coste de copia disminuye, el control debe aumentar.
-Para posibilitar la remuneración del autor, se debe garantizar el
-derecho exclusivo sobre la información. En la época de Internet, donde
-los costes se aproximan a cero, esto lleva a una lógica del control
-perfecto. Se asume que las tecnologías que abaratan los costes de
-transmisión son ante todo una oportunidad de infringir la propiedad
-intelectual. Sin embargo, el autor muestra que el abaratamiento de
-costes produce tanto desventajas como beneficios. Surgen nuevas
-oportunidades de distribuir y crear contenidos, hay repercusiones
-positivas también para los negocios. Además, hay formas de uso justo,
-contempladas en la ley, para propósitos de educación, parodia o
-comentario, que son legítimas y beneficiosas para la sociedad, mientras
-no hagan peligrar el mercado del propietario. Por tanto, no sólo son
-importantes los derechos que se reconocen al titular, sino también los
-límites de lo que puede exigir.</p>
-<p>El caso de Sony, sobre las videograbadoras Betamax, fue sin embargo un
-ejemplo significativo en que la legislación permitió la el avance de la
-tecnología con vistas a sus usos lícitos, en lugar de prohibirla por sus
-potenciales usos ilícitos. Finalmente, se repasa la aparición de las
-redes punto-a-punto (<em>peer-to-peer</em>), como Napster, junto con las
-batallas legales que desencadenaron.</p>
-<p><strong>Capítulo 5</strong>. Comienza presentando una analogía del escenario de la
-propiedad intelectual, mediante una historia sobre propiedad de tierras
-y caminos públicos de paso. La aparición de tecnologías como el coche
-pueden dar facilidades a los ladrones. Otras tecnologías como las
-alambradas de espino pueden impedirlo, pero, ¿hay que sacrificar las
-propiedades comunes en aras de la seguridad?</p>
-<p>La Ley de Copyright Digital del Milenio (DMCA, por sus siglas en
-inglés), ha tenido un gran impacto y es representativa del triunfo de la
-narrativa de la amenaza de Internet, es decir, percibe cualquier avance
-en las tecnologías de la información como una facilidad para los
-infractores que hay que contener, como si de una epidemia se tratase. De
-hecho, hay una tendencia clara en las sucesivas leyes y decisiones
-judiciales a ampliar los derechos y atribuciones reconocidos a los
-titulares de la P.I. Sin embargo, se suelen pasar por alto el deterioro
-en la competencia que esto implica para el mercado.</p>
-<p>La DMCA ha suscitado un ferviente debate. En opinión del autor, es
-defectuosa, pero hay que huir de las posturas extremas. No se puede
-prescindir de una ley de propiedad intelectual. Y el debate no puede
-centrarse sólo en esta ley, es necesaria una reflexión más amplia.</p>
-<p><strong>Capítulo 6</strong>. Aborda las implicaciones en el ámbito de la música. A
-través de un caso de estudio concreto, que abarca desde la aparición del
-género <em>soul</em> con Ray Charles a los vídeos musicales de protesta
-política surgidos tras los desastres del huracán Katrina. Se ilustra
-cómo en todos los pasos, la creación de nueva música toma numerosos
-elementos del material existente, lo cual desafía la intuición
-convencional, asociada con frecuencia al copyright, de que el artista
-crea de una forma totalmente original, y por tanto debe tener un control
-total sobre su obra. En la práctica, se ve la necesidad de un balance,
-pues un control excesivo impediría la creación de nuevas obras y géneros
-musicales. Y no debemos perder de vista el motivo por el que surge la
-propiedad intelectual: posibilitar el desarrollo de la cultura, las
-artes y las ciencias.</p>
-<p><strong>Capítulo 7</strong>. Se consideran dos casos de estudio en el plano
-científico: la informática en red y la biología sintética. En ambos
-casos, hay que caer en la cuenta que al legislar cualquier realidad, los
-juristas deben hacer un esfuerzo por encajar la realidad en sus marcos
-conceptuales. En este caso, los principales marcos serían el copyright y
-las patentes. En el caso de la informática, en los últimos años se ha
-ido comprendiendo la importancia del software, y se ha tratado de
-regular su propiedad mediante el copyright. Esta relación ha generado
-efectos inesperados y beneficiosos, como el movimiento de Software
-Libre, que aprovecha precisamente el copyright para mantener una especie
-de “reserva” de software accesible a todo el mundo.</p>
-<p>En el campo de la biología sintética, la tendencia es tratar de producir
-elementos biológicos funcionales interoperables, a los que se han
-aplicado patentes. Uno de los interrogantes que surgen aquí es la
-posibilidad de producir ordenadores biológicos, ampliando el concepto de
-“ordenador”, lo que puede tener efectos impredecibles en la actual
-legislación.</p>
-<p><strong>Capítulo 8</strong>. Existe actualmente una organización, <em>Creative Commons</em>,
-que promueve nuevos tipos de licencia que posibiliten la compartición
-de contenidos y su uso mediante Internet. Estas licencias permiten
-declinar algunos derechos de copyright, para facilitar la reutilización,
-bajo distintos marcos de condiciones. Se codifican de una forma legible
-tanto por personas como máquinas, para facilitar su búsqueda. Al igual
-que ocurrió con el software abierto, estas licencias potencian las
-propiedades de las redes para la producción de obras de forma
-descentralizada.</p>
-<p><strong>Capítulo 9</strong>. El autor pone el foco en la falta de reflexión sobre los
-resultados y datos sistematizados a la hora de elaborar las leyes y
-dictar sentencias en casos de propiedad intelectual hasta la fecha.
-Defiende una metodología empírica para elaborar la futura reflexión y
-encontrar el balance necesario en esta cuestión, entre derechos
-reconocidos a los titulares y la suficiente libertad que fomente la
-competencia y la innovación. Ensaya algunas valoraciones comparando las
-leyes de P.I. aplicadas a bases de datos en EE.UU. y Europa, o la
-gestión de datos públicos.</p>
-<p><strong>Capítulo 10</strong>. Considera el desarrollo de los movimientos a favor del
-medio ambiente (<em>enviromentalism</em>). Lo toma como ejemplo de como
-conceptualizar un bien que afecta a todos, el medio ambiente, permite
-equilibrar la tendencia a preocuparse sólo de lo propio. Propone
-entonces la promoción de la defensa del dominio público y los “comunes”
-(the “<em>commons</em>”), siempre necesarios para posibilitar tanto las nuevas
-creaciones como el acceso de la mayor parte de la sociedad a un gran
-abanico de bienes que de otra forma no sería posible.</p>
-<p>En resumen:</p>
-<ol>
-<li>La propiedad intelectual es necesaria.</li>
-<li>El sentido original de las patentes era conceder un monopolio
-    exclusivo, el mínimo imprescindible para permitir la innovación
-    protegiendo la competencia.</li>
-<li>Sin embargo, se observa una tendencia sesgada a proteger e incluso
-    acrecentar los derechos de determinados propietarios e industrias.</li>
-<li>Como consecuencia, gran parte de la producción cultural del siglo XX
-    está quedando inaccesible.</li>
-<li>Esta ampliación está basada en una visión de Internet como amenaza,
-    y una aspiración al control perfecto como respuesta.</li>
-<li>Es tan necesario defender los limites de los derechos de propiedad
-    intelectual como los derechos mismos.</li>
-<li>Es necesario conceptualizar y defender los bienes comunes y de
-    dominio público.</li>
-<li>Se debe aplicar una metodología empírica para reflexionar y elaborar
-    estas leyes, que tenga en cuenta los resultados observados.</li>
-<li>La reducción de costes de copia y comunicación supone amenazas, pero
-    también beneficios.</li>
-<li>La producción artística y científica, aun teniendo un aspecto
-    creativo, está fundada en gran medida en la reutilización de
-    materiales previos.</li>
-</ol>
-<h1>Valoración</h1>
-<p>El autor aborda la cuestión desde un enfoque legal principalmente,
-aunque evidentemente esto implica consideraciones y consecuencias en el
-ámbito de la moral.</p>
-<p>Un primer aspecto llamativo (desde mi punto de vista) es que,
-al adoptar este enfoque, y hacerlo
-en el contexto de los EE.UU., su marco de referencia es la Constitución
-de dicho país, y por tanto el utilitarismo. Dentro de este marco,
-aporta reflexiones de gran valor. De hecho, critica de forma
-convincente la insuficiencia de otros planteamientos que recurren al
-derecho natural en este campo. No hay que entender aquí una invalidez de
-las categorías del derecho natural, sino los defectos de las propuestas
-que se han elaborado partiendo del éste.</p>
-<p>El mayor mérito del libro quizás es hacer visible el núcleo de una
-cuestión sutil y difícil de apreciar, en un ámbito en que encontramos
-opiniones muy diversas. En efecto, las distintas posturas quedan
-recogidas en el recorrido del libro, desde los que defienden el máximo
-control sobre las obras por parte de la industria, hasta los entusiastas
-del libre acceso, pasando por todos aquellos usuarios que han
-intercambiado ficheros a través de Internet, sea por comodidad o
-aduciendo una rebelión contra un sistema injusto. En medio de todo ello,
-existen consideraciones de fondo que hay que meditar. El autor se centra
-en algunas como las consecuencias para la competitividad en el mercado,
-y la posibilidad de nuevas creaciones.</p>
-<p>Una segundo aspecto de gran valor es la tematización del dominio público
-y los bienes comunes. Como declara Boyle, es necesario reflexionar no
-solamente sobre los límites de la propiedad, sino sobre “el opuesto de
-la propiedad”, aquello que queda fuera de la propiedad privada. Aunque
-intuitivamente podamos pensar que lo que no es de nadie es lo que todos
-han rechazado y carece de valor, el libro muestra cómo gran parte de
-nuestra cultura está compuesta de este material.</p>
-<p>Para finalizar, conviene señalar que estos conceptos, junto con la
-comparación que se presenta con el movimiento por el medio ambiente en
-el último capítulo, ofrecen múltiples posibilidades de diálogo con
-categorías de la Doctrina Social de la Iglesia como el destino universal
-de los bienes, el bien común y los temas tratados en la encíclica
-<em>Laudato Si’</em>.</p>
-<h1>Artículos relacionados</h1>
-<ul>
-<li><a href="https://andrescg2sj.github.io/financiacion-de-contenidos-digitales.html">Financiación de contenidos digitales</a></li>
-<li><a href="https://andrescg2sj.github.io/p3p-una-solucion-para-monetizar-contenidos-digitales.html">P3P: ¿una solución para monetizar contenidos digitales?</a></li>
-</ul><p>There are <a href="https://andrescg2sj.github.io/the-public-domain-james-boyle-recension.html#disqus_thread">comments</a>.</p>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://andrescg2sj.github.io/ensenanza-y-trabajo-colaborativo-herramientas.html" rel="bookmark"
-                           title="Permalink to Enseñanza y trabajo colaborativo. Herramientas">Enseñanza y trabajo colaborativo. Herramientas</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-07-07T11:14:00+02:00">
-                Published: dom 07 julio 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://andrescg2sj.github.io/author/andrescg2sj.html">andrescg2sj</a>
-        </address>
-<p>In <a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a>.</p>
-
-</footer><!-- /.post-info -->                <h2>Preámbulo</h2>
+de Duke (<em>Duke Law School</em>). Es miembro fundador del Centro …</p>
+		<p class="continue"><a href="../the-public-domain-james-boyle-recension.html">Continue reading &raquo;</a></p>
+</article>
+<hr />
+<article>
+	<h3><a href="../ensenanza-y-trabajo-colaborativo-herramientas.html">Enseñanza y trabajo colaborativo. Herramientas</a></h3>
+	<h6>Written by <a href="../author/andrescg2sj.html">andrescg2sj</a> in <a href="../category/contenidos.html">contenidos</a> on dom 07 julio 2019.</h6>
+	<h2>Preámbulo</h2>
 <p><em>Uno de los acentos propuestos por la <a href="http://www.gc36.org/">Congregación General 36</a> de la <a href="https://serjesuita.es/">Compañía de Jesús</a> fue el <a href="https://jesuit.network/"><strong>trabajo en red</strong></a>. Aunque este modo de trabajar no es cuestión sólo de tecnología, ésta ofrece múltiples oportunidades para hacerlo. En el siguiente texto se recogen algunas herramientes que pueden ser útiles …</em></p>
-                <a class="readmore" href="https://andrescg2sj.github.io/ensenanza-y-trabajo-colaborativo-herramientas.html">read more</a>
-<p>There are <a href="https://andrescg2sj.github.io/ensenanza-y-trabajo-colaborativo-herramientas.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://andrescg2sj.github.io/financiacion-de-contenidos-digitales.html" rel="bookmark"
-                           title="Permalink to Financiación de contenidos digitales">Financiación de contenidos digitales</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-06-13T21:30:00+02:00">
-                Published: jue 13 junio 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://andrescg2sj.github.io/author/andrescg2sj.html">andrescg2sj</a>
-        </address>
-<p>In <a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a>.</p>
-
-</footer><!-- /.post-info -->                <h3>Preámbulo</h3>
+		<p class="continue"><a href="../ensenanza-y-trabajo-colaborativo-herramientas.html">Continue reading &raquo;</a></p>
+</article>
+<hr />
+<article>
+	<h3><a href="../financiacion-de-contenidos-digitales.html">Financiación de contenidos digitales</a></h3>
+	<h6>Written by <a href="../author/andrescg2sj.html">andrescg2sj</a> in <a href="../category/contenidos.html">contenidos</a> on jue 13 junio 2019.</h6>
+	<h3>Preámbulo</h3>
 <p><em>Este artículo contiene un análisis resumido de algunas tendencias recientes en la financiación de la creación y difusión de contenidos digitales. En el fondo, se trata de buscar aquellos modelos o sistemas que permiten por un lado, compartir libremente un contenido que se recibe ("Gratis lo recibísteis; dadlo gratis …</em></p>
-                <a class="readmore" href="https://andrescg2sj.github.io/financiacion-de-contenidos-digitales.html">read more</a>
-<p>There are <a href="https://andrescg2sj.github.io/financiacion-de-contenidos-digitales.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-            </article></li>
-
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="https://andrescg2sj.github.io/p3p-una-solucion-para-monetizar-contenidos-digitales.html" rel="bookmark"
-                           title="Permalink to P3P: ¿una solución para monetizar contenidos digitales?">P3P: ¿una solución para monetizar contenidos digitales?</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-02-15T18:00:00+01:00">
-                Published: vie 15 febrero 2019
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="https://andrescg2sj.github.io/author/andrescg2sj.html">andrescg2sj</a>
-        </address>
-<p>In <a href="https://andrescg2sj.github.io/category/contenidos.html">contenidos</a>.</p>
-
-</footer><!-- /.post-info -->                <h2>Introducción</h2>
+		<p class="continue"><a href="../financiacion-de-contenidos-digitales.html">Continue reading &raquo;</a></p>
+</article>
+<hr />
+<article>
+	<h3><a href="../p3p-una-solucion-para-monetizar-contenidos-digitales.html">P3P: ¿una solución para monetizar contenidos digitales?</a></h3>
+	<h6>Written by <a href="../author/andrescg2sj.html">andrescg2sj</a> in <a href="../category/contenidos.html">contenidos</a> on vie 15 febrero 2019.</h6>
+	<h2>Introducción</h2>
 <p>Desde la aparición de las redes p2p, muchos autores las perciben como
 una amenaza que ha dañado o destruido la posibilidad de rentabilizar sus
 producciones en formato digital. En este nuevo escenario, lo antiguos
 modelos de negocio en torno a los contenidos digitales son cada vez más
 difíciles de …</p>
-                <a class="readmore" href="https://andrescg2sj.github.io/p3p-una-solucion-para-monetizar-contenidos-digitales.html">read more</a>
-<p>There are <a href="https://andrescg2sj.github.io/p3p-una-solucion-para-monetizar-contenidos-digitales.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-                </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>links</h2>
-                        <ul>
-                            <li><a href="http://getpelican.com/">Pelican</a></li>
-                            <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
+		<p class="continue"><a href="../p3p-una-solucion-para-monetizar-contenidos-digitales.html">Continue reading &raquo;</a></p>
+</article>
+<hr />
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
 
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
+						</div>
+						<!-- End Main Content -->
+						<!-- Sidebar -->
+						<aside class="medium-3 hide-for-small-only columns">
+							<div class="panel">
+								<h5>Links</h5>
+								<ul class="side-nav">
+									<li><a href="http://getpelican.com/">Pelican</a></li>
+									<li><a href="http://python.org/">Python.org</a></li>
+									<li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+									<li><a href="#">You can modify those links in your config file</a></li>
+								</ul>
+							</div>
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+							<div class="panel">
+								<h5>Tags</h5>
+								<ul class="tag-cloud">
+								</ul>
+							</div>
 
-    <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+							<div class="panel">
+								<h5>Monthly Archives</h5>
+								<ul class="side-nav">
+											<li><a href="/posts/2021/07/index.html">julio 2021 (1)</a></li>
+											<li><a href="/posts/2019/07/index.html">julio 2019 (1)</a></li>
+											<li><a href="/posts/2019/06/index.html">junio 2019 (1)</a></li>
+											<li><a href="/posts/2019/02/index.html">febrero 2019 (1)</a></li>
+								</ul>
+							</div>
 
-    ga('create', 'UA-156895209-1', 'auto');
-    ga('send', 'pageview');
-    </script>
-<script type="text/javascript">
-    var disqus_shortname = 'andrescg2sj-github-io';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-</script>
-</body>
+							<div class="panel">
+								<h5>Social</h5>
+								<ul class="side-nav">
+									<li><a href="https://github.com/andrescg2sj">GitHub</a></li>
+									<li><a href="https://twitter.com/andrescg2sj">TW: @andrescg2sj</a></li>
+								</ul>
+							</div>
+						</aside>
+						<!-- End Sidebar -->
+					</div>
+
+					<!-- Footer -->
+					<footer class="row">
+						<div class="medium-9 small-12">
+							<hr/>
+							<p class="text-center">Powered by <a href="http://getpelican.com">Pelican</a> and <a href="http://foundation.zurb.com/">Zurb Foundation</a>. Theme by <a href="http://hamaluik.com">Kenton Hamaluik</a>.</p>
+						</div>
+					</footer>
+					<!-- End Footer -->
+				</section>
+				<a class="exit-off-canvas"></a>
+			</div><!--off-canvas inner-->
+		</div><!--off-canvas wrap-->
+
+		<script src="../theme/js/jquery.js"></script>
+		<script src="../theme/js/foundation.min.js"></script>
+		<script>
+			$(document).foundation();
+		</script>
+	</body>
 </html>
